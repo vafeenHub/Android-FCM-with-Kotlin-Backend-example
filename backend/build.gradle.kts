@@ -12,6 +12,6 @@ kotlin {
     }
 }
 dependencies {
-    implementation("com.google.firebase:firebase-admin:9.2.0")
-    implementation("ch.qos.logback:logback-classic:1.5.18")
+    implementation(libs.firebase.admin)
+    implementation(libs.logback.classic)
 }

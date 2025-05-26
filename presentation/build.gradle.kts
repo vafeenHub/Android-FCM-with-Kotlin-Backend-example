@@ -50,8 +50,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.google.accompanist:accompanist-permissions:0.37.3")
     // hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+    // permissions
+    implementation(libs.accompanist.permissions)
 }

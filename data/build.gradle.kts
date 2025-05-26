@@ -41,8 +41,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     // other libs
     //fcm
-    api(platform("com.google.firebase:firebase-bom:33.14.0"))
-    api("com.google.firebase:firebase-messaging")
+    api(libs.firebase.bom)
+    api(libs.firebase.messaging)
     // hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
