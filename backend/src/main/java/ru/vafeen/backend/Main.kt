@@ -9,8 +9,7 @@ import com.google.firebase.messaging.Notification
 import java.io.FileInputStream
 
 const val token =
-    "fL8De1-bSuiZVLp0dO-wZv:APA91bFrXL4CUS_P8V2peGOo9CB1ivlk-zs_XalcE4DHOcaQwaacnhQOep9hjFygbBxUm862Ubfrp-Di-en8B9NGRxJRxpVrVEqXywQctQlDbrFU_dj7MTw"
-
+    "d_uefvSVQ7ipthwzFAf5c5:APA91bHTByxY-EXEerSNgfuZDmcdR2002t6nUfBZQ1NKBPPGn_IOgK4iOhyhhMfGVK9GNibf4cyEIn65SS0swsrYcH9FRSWzJe_GiCWj5ggj6zdVKqb5OsY"
 fun main() {
     initialFirebase()
     val fcm = FirebaseMessaging.getInstance()
